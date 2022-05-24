@@ -1,0 +1,14 @@
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\bin\Debug\netcoreapp3.1\ASD_lab2.exe
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\bin\Debug\netcoreapp3.1\ASD_lab2.deps.json
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\bin\Debug\netcoreapp3.1\ASD_lab2.runtimeconfig.json
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\bin\Debug\netcoreapp3.1\ASD_lab2.runtimeconfig.dev.json
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\bin\Debug\netcoreapp3.1\ASD_lab2.dll
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\bin\Debug\netcoreapp3.1\ASD_lab2.pdb
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\obj\Debug\netcoreapp3.1\ASD_lab2.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\obj\Debug\netcoreapp3.1\ASD_lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\obj\Debug\netcoreapp3.1\ASD_lab2.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\obj\Debug\netcoreapp3.1\ASD_lab2.AssemblyInfo.cs
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\obj\Debug\netcoreapp3.1\ASD_lab2.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\obj\Debug\netcoreapp3.1\ASD_lab2.dll
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\obj\Debug\netcoreapp3.1\ASD_lab2.pdb
+C:\Users\1\Desktop\UNI\АСД\Лаб 2\ASD_lab2\obj\Debug\netcoreapp3.1\ASD_lab2.genruntimeconfig.cache
