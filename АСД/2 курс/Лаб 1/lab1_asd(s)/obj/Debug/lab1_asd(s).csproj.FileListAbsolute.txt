@@ -1,0 +1,7 @@
+E:\UNI\2 курс\АСД\Лаб 1\lab1_asd(s)\bin\Debug\lab1_asd(s).exe.config
+E:\UNI\2 курс\АСД\Лаб 1\lab1_asd(s)\bin\Debug\lab1_asd(s).exe
+E:\UNI\2 курс\АСД\Лаб 1\lab1_asd(s)\bin\Debug\lab1_asd(s).pdb
+E:\UNI\2 курс\АСД\Лаб 1\lab1_asd(s)\obj\Debug\lab1_asd(s).csproj.AssemblyReference.cache
+E:\UNI\2 курс\АСД\Лаб 1\lab1_asd(s)\obj\Debug\lab1_asd(s).csproj.CoreCompileInputs.cache
+E:\UNI\2 курс\АСД\Лаб 1\lab1_asd(s)\obj\Debug\lab1_asd(s).exe
+E:\UNI\2 курс\АСД\Лаб 1\lab1_asd(s)\obj\Debug\lab1_asd(s).pdb
