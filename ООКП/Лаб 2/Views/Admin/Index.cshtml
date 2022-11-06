@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title> Admin </title>
+</head>
+<body>
+    <div>
+        <h2> Адмініструванн БД </h2>
+        <h3> Картини </h3>
+        <table>
+            <tr>
+                <td> <p> Назва картини </p> </td>
+                <td> <p> Художник </p> </td>
+                <td> <p> Рік написання </p> </td>
+                <td> <p> Стиль написання </p> </td>
+                <td> <p> Ціна </p> </td>
+                <td> </td>
+            </tr>
+            @foreach (var p in ViewBag.Pictures)
+            {
+                <tr>
+                    <td> <p> @p.Name </p> </td>
+                    <td> <p> @p.Artist </p> </td>
+                    <td> <p> @p.Year </p> </td>
+                    <td> <p> @p.Style </p> </td>
+                    <td> <p> @p.Price </p> </td>
+                </tr>
+            }
+        </table>
+
+        <p> <a href="/Home/Index"> Повернутися на головну сторінку </a> </p>
+    </div>
+</body>
+</html>

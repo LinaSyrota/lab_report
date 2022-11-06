@@ -1,0 +1,37 @@
+﻿@{
+    Layout = null;
+}
+
+<! DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width = device-width" />
+    <title> Картинна галерея </title>
+</head>
+<body>
+    <div>
+        <h3> Картини </h3>
+        <table>
+            <tr>
+                <td> <p> Назва картини </p> </td>
+                <td> <p> Художник </p> </td>
+                <td> <p> Рік написання </p> </td>
+                <td> <p> Стиль написання </p> </td>
+                <td> <p> Ціна </p> </td>
+                <td> </td>
+            </tr>
+            @foreach (var p in ViewBag.Pictures)
+            {
+                <tr>
+                    <td> <p> @p.Name </p> </td>
+                    <td> <p> @p.Artist </p> </td>
+                    <td> <p> @p.Year </p> </td>
+                    <td> <p> @p.Style </p> </td>
+                    <td> <p> @p.Price </p> </td>
+                    <td> <p> <a href="/Home/Buy/@p.Id"> Купити </a> </p> </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
