@@ -1,0 +1,14 @@
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\obj\Debug\netcoreapp3.1\asd_2.csproj.AssemblyReference.cache
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\obj\Debug\netcoreapp3.1\asd_2.GeneratedMSBuildEditorConfig.editorconfig
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\obj\Debug\netcoreapp3.1\asd_2.AssemblyInfoInputs.cache
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\obj\Debug\netcoreapp3.1\asd_2.AssemblyInfo.cs
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\obj\Debug\netcoreapp3.1\asd_2.csproj.CoreCompileInputs.cache
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\bin\Debug\netcoreapp3.1\asd_2.exe
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\bin\Debug\netcoreapp3.1\asd_2.deps.json
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\bin\Debug\netcoreapp3.1\asd_2.runtimeconfig.json
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\bin\Debug\netcoreapp3.1\asd_2.runtimeconfig.dev.json
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\bin\Debug\netcoreapp3.1\asd_2.dll
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\bin\Debug\netcoreapp3.1\asd_2.pdb
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\obj\Debug\netcoreapp3.1\asd_2.dll
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\obj\Debug\netcoreapp3.1\asd_2.pdb
+E:\UNI\2 курс\АСД\Лаб 2\asd_2\obj\Debug\netcoreapp3.1\asd_2.genruntimeconfig.cache
