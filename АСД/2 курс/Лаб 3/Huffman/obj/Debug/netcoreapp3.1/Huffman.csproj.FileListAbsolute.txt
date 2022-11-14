@@ -1,0 +1,14 @@
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\bin\Debug\netcoreapp3.1\Huffman.exe
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\bin\Debug\netcoreapp3.1\Huffman.deps.json
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\bin\Debug\netcoreapp3.1\Huffman.runtimeconfig.json
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\bin\Debug\netcoreapp3.1\Huffman.runtimeconfig.dev.json
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\bin\Debug\netcoreapp3.1\Huffman.dll
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\bin\Debug\netcoreapp3.1\Huffman.pdb
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\obj\Debug\netcoreapp3.1\Huffman.csproj.AssemblyReference.cache
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\obj\Debug\netcoreapp3.1\Huffman.GeneratedMSBuildEditorConfig.editorconfig
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\obj\Debug\netcoreapp3.1\Huffman.AssemblyInfoInputs.cache
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\obj\Debug\netcoreapp3.1\Huffman.AssemblyInfo.cs
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\obj\Debug\netcoreapp3.1\Huffman.csproj.CoreCompileInputs.cache
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\obj\Debug\netcoreapp3.1\Huffman.dll
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\obj\Debug\netcoreapp3.1\Huffman.pdb
+E:\UNI\2 курс\АСД\Лаб 3\Huffman\obj\Debug\netcoreapp3.1\Huffman.genruntimeconfig.cache
