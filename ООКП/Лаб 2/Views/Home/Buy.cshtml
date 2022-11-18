@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width = device-width" />
+    <title> Купівля </title>
+</head>
+<body>
+    <div>
+        <h3> Форма оформлення покупки </h3>
+        <form method="post" action="">
+            <input type="hidden" value="@ViewBag.PictureId" name="PictureId" />
+            <table>
+                <tr>
+                    <td> <p> Введіть ваше ПІБ </p> </td>
+                    <td> <input type="text" name="Person" /> </td>
+                </tr>
+                <tr>
+                    <td> <p> Ваша адреса електронної пошти: </p> </td>
+                    <td><input type="text" name="Email" /> </td>
+                </tr>
+                <tr>
+                    <td> <p> Ваша адреса місця проживання: </p> </td>
+                    <td><input type="text" name="Address" /> </td>
+                </tr>
+                <tr>
+                    <td> <p> Ваш номер телефону: </p> </td>
+                    <td><input type="text" name="Telephon" /> </td>
+                </tr>
+                <tr>
+                    <td> <input type="submit" value="Завершити" /> </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td> <a href="/Home/ViewPictures"> Відмінити </a> </td>
+                    <td> </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

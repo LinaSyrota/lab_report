@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Artist</title>
+</head>
+<body>
+    <div>
+        <h2> @ViewBag.Artist </h2>
+        <img src="~/Художники/@(ViewBag.Photo).jpg" />
+        <p> @ViewBag.Info </p>
+        <p> <a href="/Admin/UpdateArtist/@ViewBag.Id"> Редагувати </a> </p> 
+    </div>
+</body>
+</html>
