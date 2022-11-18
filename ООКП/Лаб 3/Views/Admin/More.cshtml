@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>More</title>
+</head>
+<body>
+    <div>
+        <form method="get" action="">
+            <img src="~/Картини/@(ViewBag.Link).jpg" />
+            <table>
+                <tr>
+                    <td> <p> Назва картини: </p> </td>
+                    <td> <p> @ViewBag.Name </p> </td>
+                </tr>
+                <tr>
+                    <td> <p> Автор: </p> </td>
+                    <td> <p> @ViewBag.Artist </p> </td>
+                    <td> <p> <a href="/Admin/Artist/@ViewBag.Id"> Детальніше </a> </p> </td>
+                </tr>
+                <tr>
+                    <td> <p> Жанр: </p> </td>
+                    <td> <p> @ViewBag.Genre </p> </td>
+                </tr>
+                <tr>
+                    <td> <p> Стиль: </p> </td>
+                    <td> <p> @ViewBag.Style </p> </td>
+                </tr>
+                <tr>
+                    <td> <p> Матеріали: </p> </td>
+                    <td> <p> @ViewBag.Materials </p> </td>
+                </tr>
+                <tr>
+                    <td> <p> Ціна: </p> </td>
+                    <td> <p> @ViewBag.Price </p> </td>
+                    <td> <p> <a href="/Admin/Update/@ViewBag.Id"> Редагувати </a> </p> </td>
+                </tr>
+                <tr>
+                    <td> <p> <a href="/Admin/Index"> До переліку картин </a> </p> </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

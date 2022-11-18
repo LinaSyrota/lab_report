@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<! DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width = device-width" />
+    <title> Картинна галерея </title>
+</head>
+<body>
+    <div>
+        <h3> Картини </h3>
+        <form>
+            <input name="PictureName" value="@ViewBag.PictureName" placeholder="Назва картини...">
+            <input type="submit" value="Шукати" />
+        </form>
+
+        <form method="post">
+            <select name="sort">
+                <option value="">Впорядкувати</option>
+                <option value="Name">За назвою картини</option>
+                <option value="Artist">За ім'ям автора</option>
+            </select>
+            <input type="submit" value="Ok" />
+        </form>
+
+        <table>
+            <tr>
+                <td> <p> Назва картини </p> </td>
+                <td> <p> Автор </p> </td>
+                <td> </td>
+            </tr>
+            @foreach (var p in ViewBag.Pictures)
+            {
+                <tr>
+                    <td> <p> @p.Name </p> </td>
+                    <td> <p> @p.Artist </p> </td>
+                    <td> <p> <a href="/Home/More/@p.Id"> Більше </a> </p> </td>
+                </tr>
+            }
+        </table>
+        <p> <a href="/Home/Index"> Повернутися на головну сторінку </a> </p>
+    </div>
+</body>
+</html>
