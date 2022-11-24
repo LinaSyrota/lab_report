@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Artist</title>
+    <style>
+        .fig {
+            text-align: center;
+        }
+        .btn {
+            font-size: 20px;
+            display: inline-block;
+            background: Teal;
+            color: white;
+            text-decoration: none; 
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2 style="background-color: powderblue; font-size: 400%; color: MidnightBlue; text-align: center;"> @ViewBag.Artist </h2>
+        <p class="fig"><img src="~/Художники/@(ViewBag.Photo).jpg" /></p>
+        <p style="font-size:160%;">
+            @ViewBag.Info
+            <img src="~/Style/artist.jpg" style="width: 600px; height: 350px; float: right;" />
+        </p>
+        <p> <a href="/Home/ViewPictures" style="font-size:160%;" class="btn"> До переліку картин </a> </p>
+    </div>
+</body>
+</html>
