@@ -1,0 +1,35 @@
+﻿@{
+    Layout = null;
+}
+
+<! DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width = device-width" />
+    <title> Home </title>
+    <style>
+        .fig {
+            text-align: center;
+        }
+        .btn {
+            font-size: 20px;
+            display: inline-block;
+            background: Teal; 
+            color: white;
+            padding: 1rem 1.5rem; 
+            text-decoration: none; 
+            border: 2px solid black;
+            border-radius: 3px; 
+        }
+    </style>
+</head>
+<body style="background-color:lavender;">
+    <div>
+        <h1 style="background-color: powderblue; font-size: 400%; color: MidnightBlue; text-align: center;">Картинна галерея</h1>
+        <a style="font-size: 200%;" href="/Home/ViewPictures" class="btn"> Картини </a>
+        <a style="font-size: 200%;" href="/Admin/Index" class="btn"> Адміністрування БД </a>
+        <p class="fig"><img src="~/Style/main.jpg" style="width: 900px; height: 900px;" /></p>
+
+    </div>
+</body>
+</html>

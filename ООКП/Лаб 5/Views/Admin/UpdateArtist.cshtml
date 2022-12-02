@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Інформація про художника</title>
+    <style>
+        .text {
+            font-size: 20px;
+        }
+
+        .btn {
+            font-size: 23px;
+            display: inline-block;
+            background: Teal;
+            color: white;
+            text-decoration: none;
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Інформація про художника: </b></p> </td>
+                    <td> <input type="text" class="text" name="Info" /> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Назва файлу фотографії художника: </b></p> </td>
+                    <td> <input type="text" class="text" name="Photo" /> </td>
+                </tr>
+            </table>
+            <input type="submit" class="btn" value="Ok" />
+        </form>
+        <img src="~/Style/update.jpg" style="width:700px; height: 800px;" />
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title> Продані картини </title>
+    <style>
+        .fig {
+            text-align: center;
+        }
+
+        .text {
+            font-size: 20px;
+        }
+
+        .btn {
+            font-size: 20px;
+            display: inline-block;
+            background: Teal;
+            color: white;
+            text-decoration: none;
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2 style="background-color: powderblue; font-size: 400%; color: MidnightBlue; text-align: center;"> Адміністрування БД </h2>
+        <h3 style="font-size: 250%; background-color: LightCyan; text-align: center;"> Продані картини </h3>
+
+        <table>
+            <tr>
+                <td> <p style="font-size:160%;"><b> Назва картини </b></p> </td>
+                <td> <p style="font-size:160%;"><b> Ім'я покупця </b></p> </td>
+                <td> <p style="font-size:160%;"><b> Електронна пошта </b></p> </td>
+                <td> <p style="font-size:160%;"><b> Адреса </b></p> </td>
+                <td> <p style="font-size:160%;"><b> Телефон </b></p> </td>
+                <td> <p style="font-size:160%;"><b> Час і дата покупки </b></p> </td>
+                <td> </td>
+            </tr>
+            @foreach (var p in ViewBag.Pictures)
+            {
+                <tr>
+                    <td> <p style="font-size:160%;"> @p.PicturesName </p> </td>
+                    <td> <p style="font-size:160%;"> @p.Person </p> </td>
+                    <td> <p style="font-size:160%;"> @p.Email </p> </td>
+                    <td> <p style="font-size:160%;"> @p.Address </p> </td>
+                    <td> <p style="font-size:160%;"> @p.Telephon </p> </td>
+                    <td> <p style="font-size:160%;"> @p.Date </p> </td>
+                </tr>
+            }
+        </table>
+        <p> <a href="/Admin/Index" style="font-size:160%;" class="btn"> Повернутися у меню адміністрування </a> </p>
+        <p> <a href="/Home/Index" style="font-size:160%;" class="btn"> Повернутися на головну сторінку </a> </p>
+
+    </div>
+</body>
+</html>

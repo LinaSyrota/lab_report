@@ -1,0 +1,78 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Додати картину</title>
+    <style>
+        .fig {
+            text-align: center;
+        }
+
+        .text {
+            font-size: 20px;
+        }
+
+        .btn {
+            font-size: 23px;
+            display: inline-block;
+            background: Teal;
+            color: white;
+            text-decoration: none;
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form method="post" action="">
+            <input type="hidden" value="@ViewBag.PictureId" name="PictureId" />
+            <table>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Назва картини: </b></p> </td>
+                    <td> <input type="text" class="text" name="Name" /> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Художник: </b></p> </td>
+                    <td> <input type="text" class="text" name="Artist" /> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Жанр: </b></p> </td>
+                    <td> <input type="text" class="text" name="Genre" /> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Стиль: </b></p> </td>
+                    <td> <input type="text" class="text" name="Style" /> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Матеріали: </b></p> </td>
+                    <td> <input type="text" class="text" name="Materials" /> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Ціна: </b></p> </td>
+                    <td> <input type="text" class="text" name="Price" /> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Назва зображення картини: </b></p> </td>
+                    <td> <input type="text" class="text" name="Link" /> </td>
+                </tr>
+                <tr>
+                    <td> <input type="submit" class="btn" value="Завершити" /> </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td> <a href="/Admin/Index" style="font-size:160%;" class="btn"> Відмінити </a> </td>
+                    <td> </td>
+                </tr>
+            </table>
+        </form>
+        <p class="fig"><img src="~/Style/insert.jpg" style="width:700px; height: 730px;" /></p>
+    </div>
+</body>
+</html>

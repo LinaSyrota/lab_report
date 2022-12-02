@@ -1,0 +1,65 @@
+﻿
+@{
+    Layout = null;
+}
+
+<! DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width = device-width" />
+    <title> Картинна галерея </title>
+    <style>
+        .fig {
+            text-align: center;
+        }
+        .text {
+            font-size: 20px;
+        }
+        .btn {
+            font-size: 20px;
+            display: inline-block; 
+            background: Teal;
+            color: white; 
+            text-decoration: none;
+            border: 2px solid black;
+            border-radius: 3px; 
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3 style="background-color: powderblue; font-size: 400%; color: MidnightBlue; text-align: center;"> Картини </h3>
+        <form>
+            <input name="PictureName" class="text" value="@ViewBag.PictureName" placeholder="Назва картини...">
+            <input type="submit" class="btn" value="Шукати" />
+        </form>
+
+        <form method="post">
+            <select name="sort" class="text">
+                <option value="" class="text">Впорядкувати</option>
+                <option value="Name" class="text">За назвою картини</option>
+                <option value="Artist" class="text">За ім'ям автора</option>
+            </select>
+            <input type="submit" class="btn" value="Ok" />
+        </form>
+
+        <table>
+            <tr>
+                <td> <p style="font-size:160%;"><b> Назва картини </b></p> </td>
+                <td> <p style="font-size:160%;"><b> Автор </b></p> </td>
+                <td> </td>
+            </tr>
+            @foreach (var p in ViewBag.Pictures)
+            {
+                <tr>
+                    <td> <p style="font-size:160%;"> @p.Name </p> </td>
+                    <td> <p style="font-size:160%;"> @p.Artist </p> </td>
+                    <td> <p> <a href="/Home/More/@p.Id" style="font-size:160%;" class="btn"> Більше </a> </p> </td>
+                </tr>
+            }
+        </table>
+        <p> <a href="/Home/Index" style="font-size:160%;" class="btn"> Повернутися на головну сторінку </a> </p>
+        <p class="fig"><img src="~/Style/pictures.jpg" style="width:700px; height: 700px;" /></p>
+    </div>
+</body>
+</html>

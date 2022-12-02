@@ -1,0 +1,66 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title> Адміністрування </title>
+    <style>
+        .fig {
+            text-align: center;
+        }
+
+        .text {
+            font-size: 20px;
+        }
+
+        .btn {
+            font-size: 20px;
+            display: inline-block;
+            background: Teal;
+            color: white;
+            text-decoration: none;
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2 style="background-color: powderblue; font-size: 400%; color: MidnightBlue; text-align: center;"> Адміністрування БД </h2>
+        <h3 style="font-size: 250%; background-color: LightCyan; text-align: center;"> Картини </h3>
+        <form method="post">
+            <select name="status" class="text">
+                <option value="" class="text">Статус</option>
+                <option value="доступно" class="text">Доступно</option>
+                <option value="продано" class="text">Продано</option>
+            </select>
+            <input type="submit" class="btn" value="Фільтрувати" />
+        </form>
+        <table>
+            <tr>
+                <td> <p style="font-size:160%;"><b> Назва картини </b></p> </td>
+                <td> <p style="font-size:160%;"><b> Автор </b></p> </td>
+                <td> </td>
+            </tr>
+            @foreach (var p in ViewBag.Pictures)
+            {
+                <tr>
+                    <td> <p style="font-size:160%;"> @p.Name </p> </td>
+                    <td> <p style="font-size:160%;"> @p.Artist </p> </td>
+                    <td> <p> <a href="/Admin/More/@p.Id" style="font-size:160%;" class="btn"> Більше </a> </p> </td>
+                    <td> <p> <a href="/Admin/Delete/@p.Id" style="font-size:160%;" class="btn"> Видалити </a> </p> </td>
+                </tr>
+            }
+        </table>
+        <p> <a href="/Admin/Insert" style="font-size:160%;" class="btn"> Додати картину </a> </p>
+        <p> <a href="/Admin/Index" style="font-size:160%;" class="btn"> Повернутися у меню адміністрування </a> </p>
+        <p> <a href="/Home/Index" style="font-size:160%;" class="btn"> Повернутися на головну сторінку </a> </p>
+
+    </div>
+</body>
+</html>

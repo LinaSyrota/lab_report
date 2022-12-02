@@ -1,0 +1,63 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width = device-width" />
+    <title> Купівля </title>
+    <style>
+        .fig {
+            text-align: center;
+        }
+        .text {
+            font-size: 20px;
+        }
+        .btn {
+            font-size: 23px;
+            display: inline-block;
+            background: Teal;
+            color: white;
+            text-decoration: none; 
+            border: 2px solid black;
+            border-radius: 3px; 
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3 style="background-color: powderblue; font-size: 400%; color: MidnightBlue; text-align: center;"> Форма оформлення покупки </h3>
+        <form method="post" action="">
+            <input type="hidden" value="@ViewBag.PictureId" name="PictureId" />
+            <table>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Введіть ваше ПІБ: </b></p> </td>
+                    <td> <input type="text" class="text" name="Person" /> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Ваша адреса електронної пошти: </b></p> </td>
+                    <td><input type="text" class="text" name="Email" /> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Ваша адреса місця проживання: </b></p> </td>
+                    <td><input type="text" class="text" name="Address" /> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Ваш номер телефону: </b></p> </td>
+                    <td><input type="text" class="text" name="Telephon" /> </td>
+                </tr>
+                <tr>
+                    <td> <input type="submit" class="btn" value="Завершити" /> </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td> <a href="/Home/ViewPictures" style="font-size:160%;" class="btn"> Відмінити </a> </td>
+                    <td> </td>
+                </tr>
+            </table>
+        </form>
+        <p class="fig"><img src="~/Style/buy.jpg" style="width:700px; height: 700px;" /></p>
+    </div>
+</body>
+</html>

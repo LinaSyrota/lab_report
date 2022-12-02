@@ -1,0 +1,62 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Name</title>
+    <style>
+        .btn {
+            font-size: 20px;
+            display: inline-block; /* Строчно-блочный элемент */
+            background: Teal;
+            color: white; /* Белый цвет текста */
+            text-decoration: none; /* Убираем подчёркивание */
+            border: 2px solid black;
+            border-radius: 3px; /* Скругляем уголки */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3 style="background-color: powderblue; font-size: 400%; color: MidnightBlue; text-align: center;"> @ViewBag.Name </h3>
+        <form method="get" action="">
+            <img src="~/Картини/@(ViewBag.Link).jpg" />
+            <table>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Автор: </b></p> </td>
+                    <td> <p style="font-size:160%;"> @ViewBag.Artist </p> </td>
+                    <td> <p> <a href="/Home/Artist/@ViewBag.Id" style="font-size:160%;" class="btn"> Детальніше </a> </p> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Жанр: </b></p> </td>
+                    <td> <p style="font-size:160%;"> @ViewBag.Genre </p> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Стиль: </b></p> </td>
+                    <td> <p style="font-size:160%;"> @ViewBag.Style </p> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Матеріали: </b></p> </td>
+                    <td> <p style="font-size:160%;"> @ViewBag.Materials </p> </td>
+                </tr>
+                <tr>
+                    <td> <p style="font-size:160%;"><b> Ціна: </b></p> </td>
+                    <td> <p style="font-size:160%;"> @ViewBag.Price </p> </td>
+                </tr>
+                <tr>
+                    <td> <p> <a href="/Home/Buy/@ViewBag.Id" style="font-size:160%;" class="btn"> Купити </a> </p> </td>
+                </tr>
+                <tr>
+                    <td> <p> <a href="/Home/ViewPictures" style="font-size:160%;" class="btn"> До переліку картин </a> </p> </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+</body>
+</html>
