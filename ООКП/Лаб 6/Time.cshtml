@@ -1,0 +1,80 @@
+﻿
+@{
+    Layout = null;
+}
+
+<! DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width = device-width" />
+    <title> Картинна галерея </title>
+    <style>
+        .text {
+            font-size: 20px;
+        }
+        .btn {
+            font-size: 20px;
+            display: inline-block;
+            background: Teal;
+            color: white;
+            text-decoration: none;
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3 style="background-color: powderblue; font-size: 400%; color: MidnightBlue; text-align: center;"> Картини </h3>
+        <form>
+            <input name="price" class="text" value="@ViewBag.price" placeholder="Ціна...">
+            <input type="submit" class="btn" value="Шукати" />
+        </form>
+        <table>
+            <caption style="font-size:240%;"> <b>Послідовно</b> </caption>
+            <tr>
+                <td> <p style="font-size:160%;"><b> Назва картини </b></p> </td>
+                <td> <p style="font-size:160%;"><b> Автор </b></p> </td>
+                <td> <p style="font-size:160%;"><b> Ціна </b></p> </td>
+                <td> </td>
+            </tr>
+            @foreach (var p in ViewBag.PicturesLin)
+            {
+                <tr>
+                    <td> <p style="font-size:160%;"> @p.Name </p> </td>
+                    <td> <p style="font-size:160%;"> @p.Artist </p> </td>
+                    <td> <p style="font-size:160%;"> @p.Price </p> </td>
+                </tr>
+            }
+        </table><br>
+        <table>
+            <caption style="font-size:240%;"> <b>Паралельно</b> </caption>
+            <tr>
+                <td> <p style="font-size:160%;"><b> Назва картини </b></p> </td>
+                <td> <p style="font-size:160%;"><b> Автор </b></p> </td>
+                <td> <p style="font-size:160%;"><b> Ціна </b></p> </td>
+                <td> </td>
+            </tr>
+            @foreach (var p in ViewBag.PicturesPar)
+            {
+                <tr>
+                    <td> <p style="font-size:160%;"> @p.Name </p> </td>
+                    <td> <p style="font-size:160%;"> @p.Artist </p> </td>
+                    <td> <p style="font-size:160%;"> @p.Price </p> </td>
+                </tr>
+            }
+            <tr>
+                <td> <p style="font-size:160%;"><b> Час послідовного виконання: </b></p> </td>
+                <td> <p style="font-size:160%;"> @ViewBag.timeLin </p> </td>
+            </tr>
+            <tr>
+                <td> <p style="font-size:160%;"><b> Час паралельного виконання: </b></p> </td>
+                <td> <p style="font-size:160%;"> @ViewBag.timePar </p> </td>
+            </tr>
+        </table>
+        <p> <a href="/Home/AddRows" style="font-size:160%;" class="btn"> Перевірити на табліці з великою кількістю рядків </a> </p>
+        <p> <a href="/Home/multithreading" style="font-size:160%;" class="btn"> Багатопоточність </a> </p>
+        <p> <a href="/Home/Index" style="font-size:160%;" class="btn"> Повернутися на головну сторінку </a> </p>
+    </div>
+</body>
+</html>

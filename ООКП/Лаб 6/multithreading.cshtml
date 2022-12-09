@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<! DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width = device-width" />
+    <title> Картинна галерея </title>
+    <style>
+        .text {
+            font-size: 20px;
+        }
+
+        .btn {
+            font-size: 20px;
+            display: inline-block;
+            background: Teal;
+            color: white;
+            text-decoration: none;
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3 style="background-color: powderblue; font-size: 400%; color: MidnightBlue; text-align: center;"> Багатопоточність </h3>
+        <table>
+            <tr>
+                <td> <p style="font-size:160%;"><b> Клас Thread: </b></p> </td>
+                <td> <p style="font-size:160%;"> @ViewBag.timeThread </p> </td>
+            </tr>
+            <tr>
+                <td> <p style="font-size:160%;"><b> Клас Task: </b></p> </td>
+                <td> <p style="font-size:160%;"> @ViewBag.timeTask </p> </td>
+            </tr>
+            <tr>
+                <td> <p style="font-size:160%;"><b> Клас Parallel: </b></p> </td>
+                <td> <p style="font-size:160%;"> @ViewBag.timeParallel </p> </td>
+            </tr>
+        </table>
+        <p> <a href="/Home/Time" style="font-size:160%;" class="btn"> Повернутися до порівнянь </a> </p>
+    </div>
+</body>
+</html>
