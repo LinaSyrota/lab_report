@@ -1,0 +1,7 @@
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\lab_4\bin\Debug\lab_4.exe.config
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\lab_4\bin\Debug\lab_4.exe
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\lab_4\bin\Debug\lab_4.pdb
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\lab_4\obj\Debug\TCP_Server.csproj.AssemblyReference.cache
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\lab_4\obj\Debug\TCP_Server.csproj.CoreCompileInputs.cache
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\lab_4\obj\Debug\lab_4.exe
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\lab_4\obj\Debug\lab_4.pdb

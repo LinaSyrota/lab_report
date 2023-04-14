@@ -1,0 +1,10 @@
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\TPC_Client_wf\bin\Debug\TPC_Client_wf.exe.config
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\TPC_Client_wf\bin\Debug\TPC_Client_wf.exe
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\TPC_Client_wf\bin\Debug\TPC_Client_wf.pdb
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\TPC_Client_wf\obj\Debug\TPC_Client_wf.csproj.AssemblyReference.cache
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\TPC_Client_wf\obj\Debug\TPC_Client_wf.Form1.resources
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\TPC_Client_wf\obj\Debug\TPC_Client_wf.Properties.Resources.resources
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\TPC_Client_wf\obj\Debug\TPC_Client_wf.csproj.GenerateResource.cache
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\TPC_Client_wf\obj\Debug\TPC_Client_wf.csproj.CoreCompileInputs.cache
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\TPC_Client_wf\obj\Debug\TPC_Client_wf.exe
+E:\UNI\2 курс\2 семестр\ООКП\2 семестр\Лаб 4\TPC_Client_wf\obj\Debug\TPC_Client_wf.pdb
